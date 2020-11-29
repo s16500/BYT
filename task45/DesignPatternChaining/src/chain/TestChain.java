@@ -13,7 +13,7 @@ public class TestChain {
         c2.setNext(c3);
         c3.setNext(c4);
 
-        Number request = new Number(160,8,"divide");
+        Number request = new Number(160,8,"divider");
 
         c1.process(request);
 
